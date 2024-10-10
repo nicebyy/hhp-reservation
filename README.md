@@ -1,5 +1,11 @@
 # [항해+] Concert Reservation Service
 
+## 기술스택
+- Language: java18
+- Framework: SpringBoot 3.2
+- DB: H2DB (ORM: JPA)
+- Architecture: Clean Layered Architecture
+
 ## Project MileStone
 ### https://github.com/nicebyy/hhp-reservation/milestone/1
 ### https://github.com/users/nicebyy/projects/3/views/1
