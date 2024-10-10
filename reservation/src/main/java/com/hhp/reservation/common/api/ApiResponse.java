@@ -1,6 +1,6 @@
 package com.hhp.reservation.common.api;
 
-import hhplus.common.enums.ResponseCodeEnum;
+import com.hhp.reservation.common.enums.ResponseCodeEnum;
 import lombok.*;
 
 @Getter

@@ -1,6 +1,6 @@
 package com.hhp.reservation.common.exception;
 
-import hhplus.common.enums.ResponseCodeEnum;
+import com.hhp.reservation.common.enums.ResponseCodeEnum;
 
 public class BusinessException extends CustomException {
 
