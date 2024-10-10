@@ -1,7 +1,7 @@
 package com.hhp.reservation.common.api;
 
-import hhplus.common.enums.ResponseCodeEnum;
-import hhplus.common.exception.BusinessException;
+import com.hhp.reservation.common.enums.ResponseCodeEnum;
+import com.hhp.reservation.common.exception.BusinessException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
