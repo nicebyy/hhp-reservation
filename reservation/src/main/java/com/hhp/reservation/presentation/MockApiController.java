@@ -13,6 +13,7 @@ import java.util.UUID;
 
 @Slf4j
 @RestController
+@RequestMapping ("/mock")
 public class MockApiController {
 
     /**

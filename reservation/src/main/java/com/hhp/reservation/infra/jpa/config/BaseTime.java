@@ -1,4 +1,4 @@
-package com.hhp.reservation.common.config.jpa;
+package com.hhp.reservation.infra.jpa.config;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;

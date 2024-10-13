@@ -1,4 +1,4 @@
-package com.hhp.reservation.common.config.jpa;
+package com.hhp.reservation.infra.jpa.config;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import jakarta.persistence.EntityManager;

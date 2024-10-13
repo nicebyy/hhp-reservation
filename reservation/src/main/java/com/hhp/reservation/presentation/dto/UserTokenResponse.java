@@ -1,5 +1,6 @@
 package com.hhp.reservation.presentation.dto;
 
+import com.hhp.reservation.domain.user.entity.TokenStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,4 +17,6 @@ public class UserTokenResponse {
     UUID token;
     String waitTime;
     Integer waitCount;
+    TokenStatus tokenStatus;
+    String userName;
 }
