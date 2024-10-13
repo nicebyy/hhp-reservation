@@ -35,7 +35,7 @@
 ![7  좌석 결제](https://github.com/user-attachments/assets/9b4edae7-2a2d-4cb6-97eb-a7b7d1591840)
 
 ## ERD
-![image](https://github.com/user-attachments/assets/ad49b307-09b4-4a24-8104-09d7e81c571a)
+![image](https://github.com/user-attachments/assets/3a9a3c96-fb5e-4a13-acfa-eeb7fe07e34f)
 
 1. User: 좌석을 예약할 주최인 사용자. 예약에 필요한 결제금액인 point 를 가지고 있음 
 2. Token: User 값을 기반으로 생성되며 추가로 대기열에 대한 정보와 토큰 상태값을 가지고 있음
@@ -44,6 +44,7 @@
 5. ConcertSeat: 하나의 콘서트 타임에 속한 여러개의 좌석을 가질 수 있으며 1:N 관계. 위치와 가격 정보를 가지고 있음
 6. Reservation: 좌석 정보와 유저 정보를 조합하여 하나의 예약을 나타낼 수 있음. 추가로 임시배정, 예약완료 등의 상태를 나타낼 수 있음
 7. Payment: 예약이 완료되면 해당 예약에 대한 결제정보를 생성하여 나타낼 수 있음.  
+8. UserPoint: 유저 포인트 관련 테이블
 
 ## API 명세
 https://www.postman.com/science-technologist-19645978/my-workspace/documentation/et34weu/hhp-reservationservice?workspaceId=4f108718-9872-44b3-8026-8b88d8ac42a4
